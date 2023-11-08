@@ -44,18 +44,18 @@ function Painel () {
                 <Typography.Text
                   style={{
                     color: '#444746',
-                    fontWeight: 500,
-                    fontSize: '16px',
-                    paddingBottom: '16px',
+                    fontWeight: 350,
+                    fontSize: '16px',  
                   }}
                 >
-                  Fique de olho nos negócios e mantenha tudo sob controle.
+               
                 </Typography.Text>
               </div>
-              <Typography.Text style={{ color: '#1F1F1F', fontSize: 16, lineHeight: '16px', fontWeight: 480 }}>
+              <Typography.Text style={{ color: '#1F1F1F', fontSize: 18, lineHeight: '16px', fontWeight: 480 }}>
                 Aqui você encontra todos os serviços relacionados ao Microempreendedor Individual.
                 <br/>
-                Com o novo programa <b>MEI PI</b> - Portal integrado do Microempreendedor Individual, ficou mais fácil de se organizar agora,
+                Com o novo programa <b>MEI PI</b> - Portal integrado do Microempreendedor Individual, 
+                ficou mais fácil de se organizar<br></br> agora,
                 concentrando todos os serviços em um único sistema.
               </Typography.Text>
               <br></br>

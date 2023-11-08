@@ -30,7 +30,7 @@ function Home() {
 
   return (
     <div style={{ display: 'flex' }}>
-      {/* Left Container (Existing Content) */}
+     
       <div style={{ flex: 1 }}>
         {dataLoaded ? (
           <>

@@ -1,5 +1,5 @@
 import { BellFilled, MailFilled} from "@ant-design/icons";
-import { Badge, Drawer, Image, Space, List } from "antd";
+import { Badge, Drawer, Image, Space, List, Divider } from "antd";
 import { Typography } from 'antd';
 import { Input } from 'antd';
 import { useEffect, useState} from "react";
@@ -65,12 +65,13 @@ function AppHeader() {
     
     <div className="AppHeader">
       
-      <Image alt="imglogo" className="NovaLogo"style={{
+      <Image alt="imglogo" className="NovaLogo" style={{maxWidth:112,
         
         paddingRight:"16px", paddingLeft:"8px"}}
         preview={false}
         src="NovaLogo.png"
       />
+      <Divider type="vertical"></Divider>
          
       <Search 
         style={{ flex: 1, maxWidth: 500, marginLeft: 'auto' }}

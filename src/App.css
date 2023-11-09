@@ -94,10 +94,7 @@ div.ant-modal-content {
   width:50%;
 }
 
-.CardsNews{
-width:350px;
 
-}
 
 
 .content-container{
@@ -116,5 +113,6 @@ padding-left:60px;
 .hero-container {
   position: relative;
   left: 100%;
-;
+
 }
+

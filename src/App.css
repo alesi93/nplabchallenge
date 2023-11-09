@@ -97,8 +97,6 @@ div.ant-modal-content {
 }
 
 
-
-
 .content-container{
 
   overflow-x: hidden;
@@ -125,4 +123,8 @@ padding-left:60px;
 
 .ant-menu-item-selected span {
   color: #1867DC;
+}
+
+.card-container {
+  width: 340px;
 }

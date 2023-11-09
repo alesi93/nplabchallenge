@@ -8,7 +8,7 @@ import { Card } from 'antd';
 
 const { useBreakpoint } = Grid;
 
-function Painel() {
+function Painel () {
   const screens = useBreakpoint();
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [dataLoaded, setDataLoaded] = useState(false);

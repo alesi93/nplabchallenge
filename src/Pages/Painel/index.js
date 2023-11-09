@@ -35,11 +35,11 @@ function Painel() {
       <div className='content-container' style={{ flex: 1 }}>
         {dataLoaded ? (
           <>
-            <Typography.Title level={4}>Seja Bem-Vindo, MEI</Typography.Title>
+            <Typography.Title style={{fontWeight:400, color:'#333333',}} level={4}>Seja Bem-Vindo, MEI</Typography.Title>
             <Divider />
-            <Space direction="vertical">
+            <Space size={4} direction="vertical">
               <div>
-                <Typography.Title style={{ color: '#1867DC' }} level={2}>
+                <Typography.Title style={{ color: '#1867DC' }} level={3}>
                   Agora ficou mais fácil!
                 </Typography.Title>
                 <Typography.Text

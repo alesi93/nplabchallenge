@@ -32,7 +32,7 @@ function Dashboard(){
     return ( 
       <div className="dashboard-container">
        <Space size={24}direction="vertical">
-        <Typography.Title level={2}>Dashboard</Typography.Title>
+        <Typography.Title style={{color:'#111111',}}level={3}>Dashboard</Typography.Title>
         <Space direciton="horizontal">
             <DashboardCard 
             icon={

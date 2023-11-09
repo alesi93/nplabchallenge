@@ -38,7 +38,7 @@ function Dashboard(){
             icon={
             <FileDoneOutlined
             style={{
-                color:"#183EFF", 
+                color:"#FF0000", 
                 backgroundColor:"#F6F8FC",
                 borderRadius:50,
                 fontSize:32,
@@ -68,7 +68,7 @@ function Dashboard(){
             icon={
             <BarChartOutlined
             style={{
-                color:"#183EFF", 
+                color:"#00D000", 
                 backgroundColor:"#F6F8FC",
                 borderRadius:50,
                 fontSize:32,
@@ -213,7 +213,7 @@ function DashboardChart() {
           {
             label: 'Média/Ano anterior',
             data: labels.map(() => Math.round(Math.random() * 6)),
-            backgroundColor: 'rgba(250, 164, 58, 1)',
+            backgroundColor: '#A1D3FF',
 
           },
         ],

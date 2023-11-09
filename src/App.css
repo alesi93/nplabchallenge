@@ -116,7 +116,7 @@ padding-left:60px;
 .SideMenu .ant-menu-sub {
   background: white !important;
 }
-.ant-menu-title-content  {
+.ant-menu-title-content-selected  {
   color:#183EFF !important;
 }
 .hero-container {

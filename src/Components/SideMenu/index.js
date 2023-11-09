@@ -1,4 +1,4 @@
-import { HomeFilled, BarChartOutlined, AppstoreFilled } from "@ant-design/icons";
+import { HomeFilled, PieChartFilled, AppstoreFilled } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useNavigate } from "react-router-dom";
 
@@ -33,7 +33,7 @@ function SideMenu() {
               },
               {
                 label: "Dashboard",
-                icon: <BarChartOutlined activeClassName="" />,
+                icon: <PieChartFilled activeClassName="" />,
                 key: '/dashboard',
               },
             ],

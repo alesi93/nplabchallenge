@@ -114,19 +114,31 @@ padding-left:60px;
 }
 
 .SideMenu .ant-menu-sub {
-  background: #F9FAFC !important;
+  background: white !important;
 }
-
+.ant-menu-title-content  {
+  color:#183EFF !important;
+}
 .hero-container {
   position: relative;
   left: 100%;
 }
 
 .ant-menu-item-selected svg {
- 
+  color:#183EFF;
+}
+
+.ant-menu-item-selected span {
+  color:#183EFF;
 }
 
 
+
+.ant-menu-item-selected {
+  border-bottom:1px solid #183eff2d;
+  background: #F9FAFC !important;
+  border-radius: 0px !important;
+}
 
 .card-container {
   width: 340px;
@@ -135,7 +147,6 @@ padding-left:60px;
 .dropdown-container-profile {
   backdrop-filter: blur(4px);
 
-  
 }
 
 .input-wrapper-searcher input {
@@ -147,5 +158,8 @@ padding-left:60px;
   
 }
 
+.ant-menu-item:hover  {
+  background:#F6F8FC !important;
+}
 
 

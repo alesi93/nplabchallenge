@@ -3,6 +3,7 @@ import { Modal, Image, Divider } from 'antd';
 import { Grid } from 'antd';
 import { Typography, Space } from 'antd';
 import { Spin } from 'antd';
+import { Card } from 'antd';
 
 
 const { useBreakpoint } = Grid;
@@ -62,6 +63,14 @@ function Painel() {
               <br></br>
               
             </Space>
+            <div>
+              <Space direction='horizontal'>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder1.jpg"></Image></Card>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder2.jpg"></Image></Card>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder3.jpg"></Image></Card>
+                
+              </Space>
+            </div>
             
             {breakpointsToRender.map((breakpoint) =>
               screens[breakpoint] && (

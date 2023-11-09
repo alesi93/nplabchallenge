@@ -23,7 +23,7 @@ function SideMenu() {
         items={[
           {
             label: "Painel",
-            icon: <AppstoreFilled />,
+            icon: <AppstoreFilled style={{color:"#0026E5",}} />,
             key: '/',
             children: [
               {
@@ -33,7 +33,7 @@ function SideMenu() {
               },
               {
                 label: "Dashboard",
-                icon: <PieChartFilled activeClassName="" />,
+                icon: <PieChartFilled />,
                 key: '/dashboard',
               },
             ],

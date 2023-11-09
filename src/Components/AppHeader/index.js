@@ -82,7 +82,7 @@ function AppHeader() {
       />
         <Space size={24} style={{ padding: 40 }}>
         <Space size={8} style={{ padding: 8 }}>
-        <div className="dropdown-container-profile" style={{background:'white', borderRadius:4, width:104, height:32, paddingLeft:16, paddingBottom:2,}}><Dropdown
+        <div className="dropdown-container-profile" style={{background:'#ffffff', borderRadius:4, width:104, height:32, paddingLeft:16, paddingBottom:2,}}><Dropdown
     menu={{
       items,
     }}
@@ -90,9 +90,9 @@ function AppHeader() {
     <a onClick={(e) => e.preventDefault()}>
 
       <Space>  
-        <Typography.Text style={{lineHeight:2.3, color:"rgba(0,0,0,.88)", fontWeight:400}}>Olá, NpLab</Typography.Text>
+        <Typography.Text style={{lineHeight:2.3, color:"#333333", fontWeight:400}}>Olá, NpLab</Typography.Text>
       
-        <DownOutlined style={{color:"rgba(0,0,0,.88)", fontSize:10}} />
+        <DownOutlined style={{color:"#183EFF", fontSize:10}} />
       </Space>
     </a>
   </Dropdown>
@@ -100,14 +100,14 @@ function AppHeader() {
         </Space>
 
         <Badge count={comments.length} dot>
-          <MailFilled style={{ fontSize: 22, color:'#E6E6E6', }} onClick={() => {
+          <MailFilled style={{ fontSize: 22, color:'#183EFF', }} onClick={() => {
            setCommentsOpen(true); 
           }}
           />
         </Badge>
 
         <Badge size="small" style={{fontSize:9}} count={orders.length}>
-          <BellFilled style={{ fontSize: 22, color:'#E6E6E6' }} onClick={() => {
+          <BellFilled style={{ fontSize: 22, color:'#183EFF' }} onClick={() => {
            setNotificationsOpen(true); 
           }} 
           />

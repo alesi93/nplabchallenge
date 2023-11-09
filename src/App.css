@@ -142,8 +142,10 @@ padding-left:60px;
   border-color:#F6F8FC !important;
   
 }
-
 .input-wrapper-searcher input:focus {
-  border:1px solid rgba(24, 103, 220, 0.5) !important;
+  border-color:#183EFF !important;
+  
 }
+
+
 

@@ -65,9 +65,9 @@ function Home() {
             </Space>
             <div>
               <Space direction='horizontal'>
-                <Card className="card-container"><Image className="image-placeholder" src="placeholder1.jpg"></Image></Card>
-                <Card className="card-container"><Image className="image-placeholder" src="placeholder2.jpg"></Image></Card>
-                <Card className="card-container"><Image className="image-placeholder" src="placeholder3.jpg"></Image></Card>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder1.png"></Image></Card>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder2.png"></Image></Card>
+                <Card className="card-container"><Image className="image-placeholder" src="placeholder3.png"></Image></Card>
                 
               </Space>
             </div>

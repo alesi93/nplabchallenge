@@ -71,9 +71,9 @@ function AppHeader() {
         preview={false}
         src="NovaLogo.png"
       />
-      <Divider type="vertical"></Divider>
+      <Divider type="vertical" size={1}></Divider>
          
-      <Search 
+      <Search className="input-wrapper-searcher"
         style={{ flex: 1, maxWidth: 500, marginLeft: 'auto' }}
         placeholder="O que você procura?"
         onSearch={onSearch}
@@ -82,17 +82,17 @@ function AppHeader() {
       />
         <Space size={24} style={{ padding: 40 }}>
         <Space size={8} style={{ padding: 8 }}>
-        <div style={{background:'#F8F8F8', borderRadius:24, width:104, paddingLeft:16, paddingBottom:2,}}><Dropdown
+        <div className="dropdown-container-profile" style={{background:'white', borderRadius:4, width:104, height:32, paddingLeft:16, paddingBottom:2,}}><Dropdown
     menu={{
       items,
     }}
   >
     <a onClick={(e) => e.preventDefault()}>
-      <Space>
+
+      <Space>  
+        <Typography.Text style={{lineHeight:2.3, color:"rgba(0,0,0,.88)", fontWeight:400}}>Olá, NpLab</Typography.Text>
       
-        <Typography.Text style={{color:"#555555", fontWeight:500}}>Olá, NpLab</Typography.Text>
-      
-        <DownOutlined style={{color:"black", fontSize:10}} />
+        <DownOutlined style={{color:"rgba(0,0,0,.88)", fontSize:10}} />
       </Space>
     </a>
   </Dropdown>
@@ -100,14 +100,14 @@ function AppHeader() {
         </Space>
 
         <Badge count={comments.length} dot>
-          <MailFilled style={{ fontSize: 16, color:'#1867DC' }} onClick={() => {
+          <MailFilled style={{ fontSize: 22, color:'#E6E6E6', }} onClick={() => {
            setCommentsOpen(true); 
           }}
           />
         </Badge>
 
-        <Badge  count={orders.length}>
-          <BellFilled style={{ fontSize: 24, color:'#FFCD07' }} onClick={() => {
+        <Badge size="small" style={{fontSize:9}} count={orders.length}>
+          <BellFilled style={{ fontSize: 22, color:'#E6E6E6' }} onClick={() => {
            setNotificationsOpen(true); 
           }} 
           />

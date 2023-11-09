@@ -2,8 +2,15 @@
 
 
 .ant-input-search-button {
-  background-color:#183EFF !important;
+  background-color:white !important;
   height:32px !important;
+  border:1px solid #F6F8FC !important;
+}
+
+.ant-input-search-button svg {
+ color:#183EFF !important;
+
+
 }
 .App {
   display: flex;
@@ -102,7 +109,12 @@ padding-left:60px;
 }
 .SideMenu {
   width:260px;
+
  
+}
+
+.SideMenu .ant-menu-sub {
+  background: #F9FAFC !important;
 }
 
 .hero-container {
@@ -111,12 +123,10 @@ padding-left:60px;
 }
 
 .ant-menu-item-selected svg {
-  color: #1867DC;
+ 
 }
 
-.ant-menu-item-selected span {
-  color: #1867DC;
-}
+
 
 .card-container {
   width: 340px;
@@ -124,7 +134,7 @@ padding-left:60px;
 
 .dropdown-container-profile {
   backdrop-filter: blur(4px);
-  border: 1px solid #F6F8FC;
+
   
 }
 

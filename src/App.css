@@ -2,16 +2,15 @@
 
 
 .ant-input-search-button {
-  background-color:#1867DC !important;
+  background-color:#183EFF !important;
+  height:32px !important;
 }
 .App {
   display: flex;
   flex-direction: column;
   width: 100vw;
   height:100vh;
-  
 }
-
 
 .AppHeader {
 max-width:100vw;
@@ -23,7 +22,6 @@ padding:8px 32px 8px 24px;
 font-family: 'Rawline', sans-serif;
 box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
 backdrop-filter: blur(8px);
-
 
 }
 .AppFooter {
@@ -55,8 +53,6 @@ backdrop-filter: blur(8px);
 
 }
 
-
-
 .Container {
   justify-content: center;
   align-items: center;
@@ -68,7 +64,6 @@ div.ant-modal-content {
   margin-left:32px;
   max-height:600px;
 }
-
 
 .slick-dots li.slick-active button {
   background: #A3AAB2 !important;
@@ -96,7 +91,6 @@ div.ant-modal-content {
   width:50%;
 }
 
-
 .content-container{
 
   overflow-x: hidden;
@@ -108,14 +102,13 @@ padding-left:60px;
 }
 .SideMenu {
   width:260px;
+ 
 }
 
 .hero-container {
   position: relative;
   left: 100%;
-
 }
-
 
 .ant-menu-item-selected svg {
   color: #1867DC;
@@ -128,3 +121,19 @@ padding-left:60px;
 .card-container {
   width: 340px;
 }
+
+.dropdown-container-profile {
+  backdrop-filter: blur(4px);
+  border: 1px solid #F6F8FC;
+  
+}
+
+.input-wrapper-searcher input {
+  border-color:#F6F8FC !important;
+  
+}
+
+.input-wrapper-searcher input:focus {
+  border:1px solid rgba(24, 103, 220, 0.5) !important;
+}
+

@@ -1,4 +1,4 @@
-import { HomeOutlined, BarChartOutlined, AppstoreOutlined } from "@ant-design/icons";
+import { HomeFilled, BarChartOutlined, AppstoreFilled } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useNavigate } from "react-router-dom";
 
@@ -11,8 +11,8 @@ function SideMenu() {
 
 
   return (
-    <div className="SideMenu">
-      <Menu
+    <div  className="SideMenu">
+      <Menu style={{background:"",}}
         mode="inline"
         defaultSelectedKeys={[defaultSelectedKey]}
         defaultOpenKeys={defaultOpenKeys}
@@ -23,17 +23,17 @@ function SideMenu() {
         items={[
           {
             label: "Painel",
-            icon: <AppstoreOutlined />,
+            icon: <AppstoreFilled />,
             key: '/',
             children: [
               {
                 label: "Início",
-                icon: <HomeOutlined />,
+                icon: <HomeFilled />,
                 key: '/home',
               },
               {
                 label: "Dashboard",
-                icon: <BarChartOutlined />,
+                icon: <BarChartOutlined activeClassName="" />,
                 key: '/dashboard',
               },
             ],
